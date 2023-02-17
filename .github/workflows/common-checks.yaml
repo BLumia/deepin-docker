@@ -1,0 +1,18 @@
+name: common checks
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+jobs:
+  common-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: harupy/find-trailing-whitespace@master
+      - uses: wagoid/commitlint-github-action@v5
