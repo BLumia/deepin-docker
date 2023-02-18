@@ -13,3 +13,5 @@ multistrap -f apricot.multistrap || true
 cp deepin.gpg /apricot-rootfs/etc/apt/trusted.gpg.d
 
 multistrap -f apricot.multistrap
+
+cp sources.list /apricot-rootfs/etc/apt/sources.list
