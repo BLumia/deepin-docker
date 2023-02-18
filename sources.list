@@ -1,1 +1,2 @@
 deb https://community-packages.deepin.com/deepin/ apricot main contrib non-free
+deb https://com-store-packages.uniontech.com/appstore deepin appstore
