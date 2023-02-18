@@ -12,6 +12,6 @@ bootstrap=Deepin
 
 [Deepin]
 
-packages=apt
+packages=apt ca-certificates
 source=https://community-packages.deepin.com/deepin/
 suite=apricot
