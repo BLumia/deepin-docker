@@ -18,3 +18,5 @@ cp sources.list /apricot-rootfs/etc/apt/sources.list
 
 rm /apricot-rootfs/usr/share/fonts/* -r
 ln -s /run/host/usr/share/fonts /apricot-rootfs/usr/local/share/fonts
+
+cp ./deepin-app-store-tool /apricot-rootfs/usr/bin
