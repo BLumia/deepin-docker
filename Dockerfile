@@ -8,6 +8,6 @@ RUN ./build.sh
 
 FROM scratch
 
-COPY --from=build /apricot-rootfs /
+COPY --from=build /beige-rootfs /
 
 CMD ["sh"]

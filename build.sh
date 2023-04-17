@@ -8,10 +8,10 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt install multistrap -y
 
-multistrap -f apricot.multistrap || true
+multistrap -f beige.multistrap || true
 
-cp deepin.gpg /apricot-rootfs/etc/apt/trusted.gpg.d
+cp deepin.gpg /beige-rootfs/etc/apt/trusted.gpg.d
 
-multistrap -f apricot.multistrap
+multistrap -f beige.multistrap
 
-cp sources.list /apricot-rootfs/etc/apt/sources.list
+cp sources.list /beige-rootfs/etc/apt/sources.list

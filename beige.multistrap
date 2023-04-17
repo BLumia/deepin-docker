@@ -1,7 +1,7 @@
 [General]
 
 arch=amd64
-directory=/apricot-rootfs
+directory=/beige-rootfs
 cleanup=true
 noauth=false
 unpack=true
@@ -13,5 +13,5 @@ bootstrap=Deepin
 [Deepin]
 
 packages=apt ca-certificates
-source=https://community-packages.deepin.com/deepin/
-suite=apricot
+source=https://community-packages.deepin.com/beige/
+suite=beige
